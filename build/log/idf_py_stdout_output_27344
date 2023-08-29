@@ -1,0 +1,1657 @@
+00[0m
+V (44ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x1658
+load:0x403c9700,len:0xbe0
+load:0x403cc700,len:0x2d9c
+entry 0x403c9900
+[0;32mI (24) boot: ESP-IDF 5.0.2 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time 14:44:38[0m
+[0;32mI (25) boot: chip revision: v0.1[0m
+[0;32mI (26) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (31) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (36) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (41) boot: Enabling RNG early entropy source...[0m
+[0;32mI (46) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=1011ch ( 65820) map[0m
+[0;32mI (104) esp_image: segment 1: paddr=00020144 vaddr=3fc93300 size=02750h ( 10064) load[0m
+[0;32mI (106) esp_image: segment 2: paddr=0002289c vaddr=40374000 size=0d77ch ( 55164) load[0m
+[0;32mI (122) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=2c344h (181060) map[0m
+[0;32mI (155) esp_image: segment 4: paddr=0005c36c vaddr=4038177c size=01ab4h (  6836) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (163) boot: Disabling RNG early entropy source...[0m
+D (175) flash HPM: HPM with dummy, status is 3[0m
+[0;32mI (175) cpu_start: Pro cpu up.[0m
+[0;32mI (175) cpu_start: Starting app cpu, entry point is 0x40376764[0m
+[0;D2m1 9)0e usu: tartF AE_p cpu_uDA.40mE
+VisCusCHE2ERits stlltigal itrr0rbiintrmclr & e6na mausk:iIn: 0xSf_BLV2C_CHTA_ERR: isouse  1 actsests error inh 1  lrt&0mena  (1s3) efu: :xIf 
+FUSE_BLK1__DATA4_REG is used 7 bits starting with 20 bit[0m
+D (200) efuse: In EFUSE_BLK1__DATA5_REG is used 8 bits starting with 3 bit[0m
+D (207) efuse: In EFUSE_BLK1__DATA5_REG is used 5 bits starting with 11 bit[0m
+D (214) efuse: In EFUSE_BLK1__DATA4_REG is used 7 bits starting with 13 bit[0m
+D (221) efuse: In EFUSE_BLK1__DATA4_REG is used 7 bits starting with 20 bit[0m
+D (228) efuse: In EFUSE_BLK1__DATA4_REG is used 5 bits starting with 27 bit[0m
+D (235) efuse: In EFUSE_BLK1__DATA5_REG is used 3 bits starting with 0 bit[0m
+D (242) efuse: In EFUSE_BLK1__DATA5_REG is used 8 bits starting with 3 bit[0m
+D (249) efuse: In EFUSE_BLK1__DATA4_REG is used 7 bits starting with 13 bit[0m
+D (256) efuse: In EFUSE_BLK1__DATA4_REG is used 7 bits starting with 20 bit[0m
+D (263) efuse: In EFUSE_BLK1__DATA4_REG is used 5 bits starting with 27 bit[0m
+D (270) efuse: In EFUSE_BLK1__DATA5_REG is used 3 bits starting with 0 bit[0m
+D (277) efuse: In EFUSE_BLK1__DATA5_REG is used 8 bits starting with 3 bit[0m
+D (292) clk: RTC_SLOW_CLK calibration value: 3799181[0m
+V CACHE_ERR: illegal error intr clr & ena mask is: 0x3f
+V CACHE_ERR: core 0 access error intr clr & ena mask is: 0x1f
+[0;32mI (301) cpu_start: Pro cpu start user code[0m
+[0;32mI (304) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (309) cpu_start: Application information:[0m
+[0;32mI (314) cpu_start: Project name:     LCD[0m
+[0;32mI (319) cpu_start: App version:      1[0m
+[0;32mI (323) cpu_start: Compile time:     Aug 17 2023 14:43:24[0m
+[0;32mI (329) cpu_start: ELF file SHA256:  8654146af33dad84...[0m
+[0;32mI (335) cpu_start: ESP-IDF:          5.0.2[0m
+[0;32mI (340) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (344) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (349) cpu_start: Chip rev:         v0.1[0m
+V (354) memory_layout: reserved range is 0x3c04010c - 0x3c04012c[0m
+D (360) memory_layout: Checking 5 reserved memory ranges:[0m
+D (366) memory_layout: Reserved memory range 0x3fc84000 - 0x3fc93300[0m
+D (372) memory_layout: Reserved memory range 0x3fc93300 - 0x3fc964f8[0m
+D (378) memory_layout: Reserved memory range 0x3fceee34 - 0x3fcf0000[0m
+D (385) memory_layout: Reserved memory range 0x40374000 - 0x40383300[0m
+D (391) memory_layout: Reserved memory range 0x600fe000 - 0x600fe010[0m
+D (398) memory_layout: Building list of available memory regions:[0m
+V (404) memory_layout: Examining memory region 0x40374000 - 0x40378000[0m
+V (410) memory_layout: Region 0x40374000 - 0x40378000 inside of reserved 0x40374000 - 0x40383300[0m
+V (419) memory_layout: Examining memory region 0x3fc88000 - 0x3fc90000[0m
+V (426) memory_layout: Region 0x3fc88000 - 0x3fc90000 inside of reserved 0x3fc84000 - 0x3fc93300[0m
+V (435) memory_layout: Examining memory region 0x3fc90000 - 0x3fca0000[0m
+V (441) memory_layout: Start of region 0x3fc90000 - 0x3fca0000 overlaps reserved 0x3fc84000 - 0x3fc93300[0m
+V (451) memory_layout: Start of region 0x3fc93300 - 0x3fca0000 overlaps reserved 0x3fc93300 - 0x3fc964f8[0m
+D (460) memory_layout: Available memory region 0x3fc964f8 - 0x3fca0000[0m
+V (467) memory_layout: Examining memory region 0x3fca0000 - 0x3fcb0000[0m
+D (474) memory_layout: Available memory region 0x3fca0000 - 0x3fcb0000[0m
+V (480) memory_layout: Examining memory region 0x3fcb0000 - 0x3fcc0000[0m
+D (487) memory_layout: Available memory region 0x3fcb0000 - 0x3fcc0000[0m
+V (493) memory_layout: Examining memory region 0x3fcc0000 - 0x3fcd0000[0m
+D (500) memory_layout: Available memory region 0x3fcc0000 - 0x3fcd0000[0m
+V (507) memory_layout: Examining memory region 0x3fcd0000 - 0x3fce0000[0m
+D (513) memory_layout: Available memory region 0x3fcd0000 - 0x3fce0000[0m
+V (520) memory_layout: Examining memory region 0x3fce0000 - 0x3fce9710[0m
+D (526) memory_layout: Available memory region 0x3fce0000 - 0x3fce9710[0m
+V (533) memory_layout: Examining memory region 0x3fce9710 - 0x3fcf0000[0m
+V (540) memory_layout: End of region 0x3fce9710 - 0x3fcf0000 overlaps reserved 0x3fceee34 - 0x3fcf0000[0m
+D (549) memory_layout: Available memory region 0x3fce9710 - 0x3fceee34[0m
+V (556) memory_layout: Examining memory region 0x3fcf0000 - 0x3fcf8000[0m
+D (562) memory_layout: Available memory region 0x3fcf0000 - 0x3fcf8000[0m
+V (569) memory_layout: Examining memory region 0x600fe000 - 0x60100000[0m
+V (575) memory_layout: Start of region 0x600fe000 - 0x60100000 overlaps reserved 0x600fe000 - 0x600fe010[0m
+D (585) memory_layout: Available memory region 0x600fe010 - 0x60100000[0m
+[0;32mI (592) heap_init: Initializing. RAM available for dynamic allocation:[0m
+D (599) heap_init: New heap initialised at 0x3fc964f8[0m
+[0;32mI (604) heap_init: At 3FC964F8 len 00053218 (332 KiB): DRAM[0m
+[0;32mI (610) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+D (617) heap_init: New heap initialised at 0x3fcf0000[0m
+[0;32mI (622) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+D (628) heap_init: New heap initialised at 0x600fe010[0m
+[0;32mI (633) heap_init: At 600FE010 len 00001FF0 (7 KiB): RTCRAM[0m
+V (640) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (646) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0x40E[0m
+D (654) intr_alloc: Connected src 39 to int 2 (cpu 0)[0m
+V (660) memspi: raw_chip_id: 1740C8
+[0m
+V (663) memspi: chip_id: C84017
+[0m
+V (666) memspi: raw_chip_id: 1740C8
+[0m
+V (670) memspi: chip_id: C84017
+[0m
+D (673) spi_flash: trying chip: issi[0m
+D (677) spi_flash: trying chip: gd[0m
+[0;32mI (681) spi_flash: detected chip: gd[0m
+[0;32mI (685) spi_flash: flash io: dio[0m
+D (689) cpu_start: calling init function: 0x4200e25c[0m
+D (694) cpu_start: calling init function: 0x4200d454[0m
+D (699) cpu_start: calling init function: 0x4200b6f4[0m
+D (704) cpu_start: calling init function: 0x4200ec70 on core: 0[0m
+V (710) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (716) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0xC02[0m
+D (724) intr_alloc: Connected src 59 to int 3 (cpu 0)[0m
+D (729) cpu_start: calling init function: 0x4200df2c on core: 0[0m
+V (736) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (742) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0x40E[0m
+D (750) intr_alloc: Connected src 79 to int 9 (cpu 0)[0m
+[0;32mI (755) cpu_start: Starting scheduler on PRO CPU.[0m
+V (761) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (761) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0x402[0m
+D (761) intr_alloc: Connected src 57 to int 12 (cpu 0)[0m
+V (761) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): checking args[0m
+V (771) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): Args okay. Resulting flags 0x40E[0m
+D (771) intr_alloc: Connected src 80 to int 2 (cpu 1)[0m
+[0;32mI (781) cpu_start: Starting scheduler on APP CPU.[0m
+V (781) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): checking args[0m
+V (791) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): Args okay. Resulting flags 0x402[0m
+D (801) intr_alloc: Connected src 58 to int 3 (cpu 1)[0m
+D (801) heap_init: New heap initialised at 0x3fce9710[0m
+V (811) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (821) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0xE[0m
+D (821) intr_alloc: Connected src 52 to int 13 (cpu 0)[0m
+[0;31mE (831) app_main(): Initializing bus...
+[0m
+D (831) gdma: new group (0) at 0x3fc9b430[0m
+D (841) gdma: new pair (0,0) at 0x3fc9b474[0m
+D (841) gdma: new tx channel (0,0) at 0x3fc9b400[0m
+D (851) gdma: new rx channel (0,0) at 0x3fc9b494[0m
+D (851) spi: SPI2 use gpio matrix.[0m
+[0;32mI (861) app_main(): SPI Bus initialized!!
+[0m
+[0;31mE (861) SDCARD: Mounting SD Card...
+[0m
+D (861) sdspi_host: sdspi_host_init_device: SPI2 cs=4 cd=-1 wp=-1[0m
+V (871) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args[0m
+V (881) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0x80E[0m
+D (891) intr_alloc: Connected src 21 to int 17 (cpu 0)[0m
+V (891) bus_lock: device registered on bus 1 slot 5.[0m
+D (901) spi_hal: eff: 400, limit: 80000k(/0), 0 dummy, -1 delay[0m
+D (901) spi_master: SPI2: New device added to CS5, effective clock: 400kHz[0m
+[0;32mI (911) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+V (921) sdmmc_cmd: sending cmd slot=1 op=52 arg=80000c08 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (931) sdspi_host: sdspi_host_start_command: slot=1, CMD52, arg=0x80000c08 flags=0x80, data=0x0, data_size=0 crc=0x4f[0m
+V bus_lock: dev 5 acquired.
+D (941) spi_master: device5 locked the bus[0m
+V bus_lock: SPI dev changed from -1 to 5
+V (951) spi_master: polling trans[0m
+V (951) spi_master: polling trans done[0m
+V (961) spi_master: polling trans[0m
+V (961) spi_master: polling trans done[0m
+V (961) spi_master: polling trans[0m
+V (971) spi_master: polling trans done[0m
+V (971) spi_master: polling trans[0m
+V (971) spi_master: polling trans done[0m
+V (981) spi_master: polling trans[0m
+V (981) spi_master: polling trans done[0m
+V (981) spi_master: polling trans[0m
+V (991) spi_master: polling trans done[0m
+D (991) sdspi_host: poll_busy: timeout[0m
+V (1001) spi_master: polling trans[0m
+V (1001) spi_master: polling trans done[0m
+V (1001) spi_master: polling trans[0m
+V (1011) spi_master: polling trans done[0m
+D (1011) spi_master: device5 release bus[0m
+V (1011) bus_lock: dev 5 released.[0m
+V (1021) sdspi_transaction: r1 = 0x04 hw_cmd.r[0]=0xffffffff[0m
+[0;32mI (1021) sdspi_transaction: cmd=52, R1 response: command not supported[0m
+D (1031) sdmmc_cmd: cmd=52, sdmmc_req_run returned 0x106[0m
+V (1041) sdmmc_io: sdmmc_io_rw_direct: sdmmc_send_cmd returned 0x106[0m
+V (1041) sdmmc_cmd: sending cmd slot=1 op=0 arg=0 flags=20 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1051) sdspi_host: sdspi_host_start_command: slot=1, CMD0, arg=0x00000000 flags=0x200, data=0x0, data_size=0 crc=0x4a[0m
+V bus_lock: dev 5 acquired.
+D (1061) spi_master: device5 locked the bus[0m
+V (1071) spi_master: polling trans[0m
+V (1071) spi_master: polling trans done[0m
+V (1081) spi_master: polling trans[0m
+V (1081) spi_master: polling trans done[0m
+V (1081) spi_master: polling trans[0m
+V (1091) spi_master: polling trans done[0m
+V (1091) spi_master: polling trans[0m
+V (1101) spi_master: polling trans done[0m
+V (1101) sdspi_host: start_command_default: ignoring response byte[0m
+V (1111) spi_master: polling trans[0m
+V (1111) spi_master: polling trans done[0m
+D (1111) spi_master: device5 release bus[0m
+V (1121) bus_lock: dev 5 released.[0m
+V (1121) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (1131) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (1151) sdmmc_cmd: sending cmd slot=1 op=0 arg=0 flags=1c20 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1151) sdspi_host: sdspi_host_start_command: slot=1, CMD0, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x4a[0m
+V bus_lock: dev 5 acquired.
+D (1161) spi_master: device5 locked the bus[0m
+V (1161) spi_master: polling trans[0m
+V (1161) spi_master: polling trans done[0m
+V (1171) spi_master: polling trans[0m
+V (1171) spi_master: polling trans done[0m
+V (1181) spi_master: polling trans[0m
+V (1181) spi_master: polling trans done[0m
+V (1181) spi_master: polling trans[0m
+V (1191) spi_master: polling trans done[0m
+V (1191) spi_master: polling trans[0m
+V (1191) spi_master: polling trans done[0m
+D (1201) spi_master: device5 release bus[0m
+V (1201) bus_lock: dev 5 released.[0m
+V (1211) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (1211) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (1241) sdmmc_cmd: sending cmd slot=1 op=8 arg=1aa flags=1c30 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1241) sdspi_host: sdspi_host_start_command: slot=1, CMD8, arg=0x000001aa flags=0x100, data=0x0, data_size=0 crc=0x43[0m
+V bus_lock: dev 5 acquired.
+D (1251) spi_master: device5 locked the bus[0m
+V (1251) spi_master: polling trans[0m
+V (1251) spi_master: polling trans done[0m
+V (1261) spi_master: polling trans[0m
+V (1261) spi_master: polling trans done[0m
+V (1271) spi_master: polling trans[0m
+V (1271) spi_master: polling trans done[0m
+V (1271) spi_master: polling trans[0m
+V (1281) spi_master: polling trans done[0m
+D (1281) spi_master: device5 release bus[0m
+V (1281) bus_lock: dev 5 released.[0m
+V (1291) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xaa010000[0m
+V (1291) sdmmc_cmd: cmd response 000001aa 00000000 00000000 00000000 err=0x0 state=0[0m
+D (1301) sdmmc_sd: SDHC/SDXC card[0m
+V (1311) sdmmc_cmd: sending cmd slot=1 op=5 arg=0 flags=1030 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1311) sdspi_host: sdspi_host_start_command: slot=1, CMD5, arg=0x00000000 flags=0x40, data=0x0, data_size=0 crc=0x2d[0m
+V bus_lock: dev 5 acquired.
+D (1331) spi_master: device5 locked the bus[0m
+V (1331) spi_master: polling trans[0m
+V (1341) spi_master: polling trans done[0m
+V (1341) spi_master: polling trans[0m
+V (1341) spi_master: polling trans done[0m
+V (1351) spi_master: polling trans[0m
+V (1351) spi_master: polling trans done[0m
+V (1351) spi_master: polling trans[0m
+V (1361) spi_master: polling trans done[0m
+D (1361) spi_master: device5 release bus[0m
+V (1371) bus_lock: dev 5 released.[0m
+V (1371) sdspi_transaction: r1 = 0x05 hw_cmd.r[0]=0xffffffff[0m
+[0;32mI (1371) sdspi_transaction: cmd=5, R1 response: command not supported[0m
+D (1381) sdmmc_cmd: cmd=5, sdmmc_req_run returned 0x106[0m
+D (1391) sdmmc_io: sdmmc_init_io: io_send_op_cond (1) returned 0x106; not IO card[0m
+V (1391) sdmmc_cmd: sending cmd slot=1 op=59 arg=1 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1401) sdspi_host: sdspi_host_start_command: slot=1, CMD59, arg=0x00000001 flags=0x4, data=0x0, data_size=0 crc=0x41[0m
+V bus_lock: dev 5 acquired.
+D (1421) spi_master: device5 locked the bus[0m
+V (1421) spi_master: polling trans[0m
+V (1431) spi_master: polling trans done[0m
+V (1431) spi_master: polling trans[0m
+V (1431) spi_master: polling trans done[0m
+V (1441) spi_master: polling trans[0m
+V (1441) spi_master: polling trans done[0m
+V (1441) spi_master: polling trans[0m
+V (1451) spi_master: polling trans done[0m
+D (1451) spi_master: device5 release bus[0m
+V (1461) bus_lock: dev 5 released.[0m
+D (1461) sdspi_host: data CRC set=1[0m
+V (1461) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (1471) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (1481) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1491) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (1501) spi_master: device5 locked the bus[0m
+V (1501) spi_master: polling trans[0m
+V (1511) spi_master: polling trans done[0m
+V (1511) spi_master: polling trans[0m
+V (1511) spi_master: polling trans done[0m
+V (1521) spi_master: polling trans[0m
+V (1521) spi_master: polling trans done[0m
+V (1521) spi_master: polling trans[0m
+V (1531) spi_master: polling trans done[0m
+D (1531) spi_master: device5 release bus[0m
+V (1541) bus_lock: dev 5 released.[0m
+V (1541) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (1551) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (1551) sdmmc_cmd: sending cmd slot=1 op=41 arg=40ff8000 flags=1030 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1561) sdspi_host: sdspi_host_start_command: slot=1, CMD41, arg=0x40ff8000 flags=0x4, data=0x0, data_size=0 crc=0x0b[0m
+V bus_lock: dev 5 acquired.
+D (1581) spi_master: device5 locked the bus[0m
+V (1581) spi_master: polling trans[0m
+V (1581) spi_master: polling trans done[0m
+V (1591) spi_master: polling trans[0m
+V (1591) spi_master: polling trans done[0m
+V (1601) spi_master: polling trans[0m
+V (1601) spi_master: polling trans done[0m
+V (1601) spi_master: polling trans[0m
+V (1611) spi_master: polling trans done[0m
+D (1611) spi_master: device5 release bus[0m
+V (1611) bus_lock: dev 5 released.[0m
+V (1621) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (1621) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (1641) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1641) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (1651) spi_master: device5 locked the bus[0m
+V (1661) spi_master: polling trans[0m
+V (1661) spi_master: polling trans done[0m
+V (1671) spi_master: polling trans[0m
+V (1671) spi_master: polling trans done[0m
+V (1671) spi_master: polling trans[0m
+V (1681) spi_master: polling trans done[0m
+V (1681) spi_master: polling trans[0m
+V (1681) spi_master: polling trans done[0m
+D (1691) spi_master: device5 release bus[0m
+V (1691) bus_lock: dev 5 released.[0m
+V (1701) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (1701) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (1711) sdmmc_cmd: sending cmd slot=1 op=41 arg=40ff8000 flags=1030 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1721) sdspi_host: sdspi_host_start_command: slot=1, CMD41, arg=0x40ff8000 flags=0x4, data=0x0, data_size=0 crc=0x0b[0m
+V bus_lock: dev 5 acquired.
+D (1731) spi_master: device5 locked the bus[0m
+V (1741) spi_master: polling trans[0m
+V (1741) spi_master: polling trans done[0m
+V (1741) spi_master: polling trans[0m
+V (1751) spi_master: polling trans done[0m
+V (1751) spi_master: polling trans[0m
+V (1761) spi_master: polling trans done[0m
+V (1761) spi_master: polling trans[0m
+V (1761) spi_master: polling trans done[0m
+D (1771) spi_master: device5 release bus[0m
+V (1771) bus_lock: dev 5 released.[0m
+V (1771) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (1781) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (1791) sdmmc_cmd: sending cmd slot=1 op=58 arg=0 flags=1630 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (1801) sdspi_host: sdspi_host_start_command: slot=1, CMD58, arg=0x00000000 flags=0x20, data=0x0, data_size=0 crc=0x7e[0m
+V bus_lock: dev 5 acquired.
+D (1811) spi_master: device5 locked the bus[0m
+V (1811) spi_master: polling trans[0m
+V (1821) spi_master: polling trans done[0m
+V (1821) spi_master: polling trans[0m
+V (1821) spi_master: polling trans done[0m
+V (1831) spi_master: polling trans[0m
+V (1831) spi_master: polling trans done[0m
+V (1841) spi_master: polling trans[0m
+V (1841) spi_master: polling trans done[0m
+D (1841) spi_master: device5 release bus[0m
+V (1851) bus_lock: dev 5 released.[0m
+V (1851) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x0080ffc0[0m
+V (1861) sdmmc_cmd: cmd response c0ff8000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (1861) sdmmc_common: host_ocr=0x40ff8000 card_ocr=0xc0ff8000[0m
+D (1871) sdmmc_common: sdmmc_card_init: host_ocr=40ff8000, card_ocr=c0ff8000[0m
+D (1881) sdmmc_init: sdmmc_card_init: card type is SD[0m
+V (1881) sdmmc_cmd: sending cmd slot=1 op=10 arg=0 flags=50 data=0x3fc99e90 blklen=0 datalen=16 timeout=10000[0m
+V (1891) sdspi_host: sdspi_host_start_command: slot=1, CMD10, arg=0x00000000 flags=0x5, data=0x3fc99e90, data_size=16 crc=0x0d[0m
+V bus_lock: dev 5 acquired.
+D (1911) spi_master: device5 locked the bus[0m
+V (1911) spi_master: polling trans[0m
+V (1911) spi_master: polling trans done[0m
+V (1921) spi_master: polling trans[0m
+V (1921) spi_master: polling trans done[0m
+V (1931) spi_master: polling trans[0m
+V (1931) spi_master: polling trans done[0m
+V (1931) bus_lock: dev 5 served from bg.[0m
+V (1941) spi_master: polling trans[0m
+V (1941) spi_master: polling trans done[0m
+D (1941) spi_master: device5 release bus[0m
+V (1951) bus_lock: dev 5 released.[0m
+V (1951) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x03feff00[0m
+V (1961) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (1971) sdmmc_cmd: sending cmd slot=1 op=9 arg=0 flags=1c50 data=0x3fc99ea0 blklen=0 datalen=16 timeout=10000[0m
+V (1981) sdspi_host: sdspi_host_start_command: slot=1, CMD9, arg=0x00000000 flags=0x5, data=0x3fc99ea0, data_size=16 crc=0x57[0m
+V bus_lock: dev 5 acquired.
+D (1991) spi_master: device5 locked the bus[0m
+V (1991) spi_master: polling trans[0m
+V (2001) spi_master: polling trans done[0m
+V (2001) spi_master: polling trans[0m
+V (2001) spi_master: polling trans done[0m
+V (2011) spi_master: polling trans[0m
+V (2011) spi_master: polling trans done[0m
+V (2021) bus_lock: dev 5 served from bg.[0m
+V (2021) spi_master: polling trans[0m
+V (2021) spi_master: polling trans done[0m
+D (2031) spi_master: device5 release bus[0m
+V (2031) bus_lock: dev 5 released.[0m
+V (2031) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x40feff00[0m
+V (2041) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (2051) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (2061) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (2071) spi_master: device5 locked the bus[0m
+V (2081) spi_master: polling trans[0m
+V (2081) spi_master: polling trans done[0m
+V (2081) spi_master: polling trans[0m
+V (2091) spi_master: polling trans done[0m
+V (2091) spi_master: polling trans[0m
+V (2091) spi_master: polling trans done[0m
+V (2101) spi_master: polling trans[0m
+V (2101) spi_master: polling trans done[0m
+D (2101) spi_master: device5 release bus[0m
+V (2111) bus_lock: dev 5 released.[0m
+V (2111) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (2121) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (2131) sdmmc_cmd: sending cmd slot=1 op=51 arg=0 flags=1c50 data=0x3fc9badc blklen=8 datalen=8 timeout=10000[0m
+V (2141) sdspi_host: sdspi_host_start_command: slot=1, CMD51, arg=0x00000000 flags=0x5, data=0x3fc9badc, data_size=8 crc=0x63[0m
+V bus_lock: dev 5 acquired.
+D (2151) spi_master: device5 locked the bus[0m
+V (2151) spi_master: polling trans[0m
+V (2161) spi_master: polling trans done[0m
+V (2161) spi_master: polling trans[0m
+V (2161) spi_master: polling trans done[0m
+V (2171) spi_master: polling trans[0m
+V (2171) spi_master: polling trans done[0m
+V (2181) spi_master: polling trans[0m
+V (2181) spi_master: polling trans done[0m
+V (2181) bus_lock: dev 5 served from bg.[0m
+V (2191) spi_master: polling trans[0m
+V (2191) spi_master: polling trans done[0m
+D (2191) spi_master: device5 release bus[0m
+V (2201) bus_lock: dev 5 released.[0m
+V (2201) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x03803502[0m
+V (2211) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (2221) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (2231) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (2241) spi_master: device5 locked the bus[0m
+V (2241) spi_master: polling trans[0m
+V (2251) spi_master: polling trans done[0m
+V (2251) spi_master: polling trans[0m
+V (2251) spi_master: polling trans done[0m
+V (2261) spi_master: polling trans[0m
+V (2261) spi_master: polling trans done[0m
+V (2261) spi_master: polling trans[0m
+V (2271) spi_master: polling trans done[0m
+D (2271) spi_master: device5 release bus[0m
+V (2281) bus_lock: dev 5 released.[0m
+V (2281) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (2291) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (2291) sdmmc_cmd: sending cmd slot=1 op=13 arg=0 flags=1c50 data=0x3fc9badc blklen=64 datalen=64 timeout=10000[0m
+V (2301) sdspi_host: sdspi_host_start_command: slot=1, CMD13, arg=0x00000000 flags=0x11, data=0x3fc9badc, data_size=64 crc=0x06[0m
+V bus_lock: dev 5 acquired.
+D (2321) spi_master: device5 locked the bus[0m
+V (2321) spi_master: polling trans[0m
+V (2331) spi_master: polling trans done[0m
+V (2331) spi_master: polling trans[0m
+V (2331) spi_master: polling trans done[0m
+V (2341) spi_master: polling trans[0m
+V (2341) spi_master: polling trans done[0m
+V (2341) spi_master: polling trans[0m
+V (2351) spi_master: polling trans done[0m
+V (2351) bus_lock: dev 5 served from bg.[0m
+V (2361) spi_master: polling trans[0m
+V (2361) spi_master: polling trans done[0m
+D (2361) spi_master: device5 release bus[0m
+V (2371) bus_lock: dev 5 released.[0m
+V (2371) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x00000000[0m
+V (2381) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (2381) sdmmc_common: sdmmc_init_host_frequency: using 20000 kHz bus frequency[0m
+D (2391) sdspi_host: Setting card clock to 20000 kHz[0m
+V (2401) bus_lock: device registered on bus 1 slot 5.[0m
+D (2401) spi_hal: eff: 20000, limit: 80000k(/0), 0 dummy, -1 delay[0m
+D (2411) spi_master: SPI2: New device added to CS5, effective clock: 20000kHz[0m
+V (2411) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (2421) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (2441) spi_master: device5 locked the bus[0m
+V bus_lock: SPI dev changed from -1 to 5
+V (2451) spi_master: polling trans[0m
+V (2451) spi_master: polling trans done[0m
+V (2451) spi_master: polling trans[0m
+V (2461) spi_master: polling trans done[0m
+V (2461) spi_master: polling trans[0m
+V (2461) spi_master: polling trans done[0m
+V (2471) spi_master: polling trans[0m
+V (2471) spi_master: polling trans done[0m
+D (2471) spi_master: device5 release bus[0m
+V (2481) bus_lock: dev 5 released.[0m
+V (2481) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (2491) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (2501) sdmmc_cmd: sending cmd slot=1 op=51 arg=0 flags=1c50 data=0x3fc9badc blklen=8 datalen=8 timeout=10000[0m
+V (2511) sdspi_host: sdspi_host_start_command: slot=1, CMD51, arg=0x00000000 flags=0x5, data=0x3fc9badc, data_size=8 crc=0x63[0m
+V bus_lock: dev 5 acquired.
+D (2521) spi_master: device5 locked the bus[0m
+V (2521) spi_master: polling trans[0m
+V (2531) spi_master: polling trans done[0m
+V (2531) spi_master: polling trans[0m
+V (2531) spi_master: polling trans done[0m
+V (2541) spi_master: polling trans[0m
+V (2541) spi_master: polling trans done[0m
+V (2551) spi_master: polling trans[0m
+V (2551) spi_master: polling trans done[0m
+V (2551) bus_lock: dev 5 served from bg.[0m
+V (2561) spi_master: polling trans[0m
+V (2561) spi_master: polling trans done[0m
+D (2561) spi_master: device5 release bus[0m
+V (2571) bus_lock: dev 5 released.[0m
+V (2571) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x03803502[0m
+V (2581) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (2591) vfs_fat_sdmmc: using pdrv=0[0m
+V (2591) sdmmc_cmd: sending cmd slot=1 op=13 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (2601) sdspi_host: sdspi_host_start_command: slot=1, CMD13, arg=0x00000000 flags=0x10, data=0x0, data_size=0 crc=0x06[0m
+V bus_lock: dev 5 acquired.
+D (2611) spi_master: device5 locked the bus[0m
+V (2621) spi_master: polling trans[0m
+V (2621) spi_master: polling trans done[0m
+V (2621) spi_master: polling trans[0m
+V (2631) spi_master: polling trans done[0m
+V (2631) spi_master: polling trans[0m
+V (2631) spi_master: polling trans done[0m
+V (2641) spi_master: polling trans[0m
+V (2641) spi_master: polling trans done[0m
+D (2651) spi_master: device5 release bus[0m
+V (2651) bus_lock: dev 5 released.[0m
+V (2651) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffff00[0m
+V (2661) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (2671) sdmmc_cmd: sending cmd slot=1 op=17 arg=0 flags=1c50 data=0x3fc9bb4c blklen=512 datalen=512 timeout=10000[0m
+V (2681) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00000000 flags=0x5, data=0x3fc9bb4c, data_size=512 crc=0x2a[0m
+V bus_lock: dev 5 acquired.
+D (2691) spi_master: device5 locked the bus[0m
+V (2701) spi_master: polling trans[0m
+V (2701) spi_master: polling trans done[0m
+V (2701) spi_master: polling trans[0m
+V (2711) spi_master: polling trans done[0m
+V (2711) spi_master: polling trans[0m
+V (2711) spi_master: polling trans done[0m
+V (2721) spi_master: polling trans[0m
+V (2721) spi_master: polling trans done[0m
+V (2731) bus_lock: dev 5 served from bg.[0m
+V (2731) spi_master: polling trans[0m
+V (2731) spi_master: polling trans done[0m
+D (2741) spi_master: device5 release bus[0m
+V (2741) bus_lock: dev 5 released.[0m
+V (2741) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x1000b8fa[0m
+V (2751) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (2761) sdmmc_cmd: sending cmd slot=1 op=17 arg=2000 flags=1c50 data=0x3fc9bb4c blklen=512 datalen=512 timeout=10000[0m
+V (2771) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002000 flags=0x5, data=0x3fc9bb4c, data_size=512 crc=0x58[0m
+V bus_lock: dev 5 acquired.
+D (2781) spi_master: device5 locked the bus[0m
+V (2791) spi_master: polling trans[0m
+V (2791) spi_master: polling trans done[0m
+V (2791) spi_master: polling trans[0m
+V (2801) spi_master: polling trans done[0m
+V (2801) spi_master: polling trans[0m
+V (2811) spi_master: polling trans done[0m
+V (2811) spi_master: polling trans[0m
+V (2811) spi_master: polling trans done[0m
+V (2821) bus_lock: dev 5 served from bg.[0m
+V (2821) spi_master: polling trans[0m
+V (2821) spi_master: polling trans done[0m
+D (2831) spi_master: device5 release bus[0m
+V (2831) bus_lock: dev 5 released.[0m
+V (2841) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x6d9058eb[0m
+V (2841) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (2851) sdmmc_cmd: sending cmd slot=1 op=17 arg=2001 flags=1c50 data=0x3fc9bb4c blklen=512 datalen=512 timeout=10000[0m
+V (2861) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002001 flags=0x5, data=0x3fc9bb4c, data_size=512 crc=0x51[0m
+V bus_lock: dev 5 acquired.
+D (2871) spi_master: device5 locked the bus[0m
+V (2881) spi_master: polling trans[0m
+V (2881) spi_master: polling trans done[0m
+V (2891) spi_master: polling trans[0m
+V (2891) spi_master: polling trans done[0m
+V (2891) spi_master: polling trans[0m
+V (2901) spi_master: polling trans done[0m
+V (2901) spi_master: polling trans[0m
+V (2901) spi_master: polling trans done[0m
+V (2911) bus_lock: dev 5 served from bg.[0m
+V (2911) spi_master: polling trans[0m
+V (2911) spi_master: polling trans done[0m
+D (2921) spi_master: device5 release bus[0m
+V (2921) bus_lock: dev 5 released.[0m
+V (2931) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x41615252[0m
+V (2931) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+[0;31mE (2941) SDCARD: Writing to file...
+[0m
+V (2941) vfs_fat: vfs_fat_open: path="/datalog.txt", flags=209, mode=1b6[0m
+V (2951) sdmmc_cmd: sending cmd slot=1 op=17 arg=2572 flags=1c50 data=0x3fc9bb4c blklen=512 datalen=512 timeout=10000[0m
+V (2961) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002572 flags=0x5, data=0x3fc9bb4c, data_size=512 crc=0x22[0m
+V bus_lock: dev 5 acquired.
+D (2981) spi_master: device5 locked the bus[0m
+V (2981) spi_master: polling trans[0m
+V (2981) spi_master: polling trans done[0m
+V (2991) spi_master: polling trans[0m
+V (2991) spi_master: polling trans done[0m
+V (2991) spi_master: polling trans[0m
+V (3001) spi_master: polling trans done[0m
+V (3001) spi_master: polling trans[0m
+V (3011) spi_master: polling trans done[0m
+V (3011) bus_lock: dev 5 served from bg.[0m
+V (3011) spi_master: polling trans[0m
+V (3021) spi_master: polling trans done[0m
+D (3021) spi_master: device5 release bus[0m
+V (3021) bus_lock: dev 5 released.[0m
+V (3031) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x20204453[0m
+V (3031) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (3041) vfs_fat: vfs_fat_lseek: offset=5568, filesize:=5568[0m
+V (3051) sdmmc_cmd: sending cmd slot=1 op=17 arg=2020 flags=1c50 data=0x3fc9bb4c blklen=512 datalen=512 timeout=10000[0m
+V (3061) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002020 flags=0x5, data=0x3fc9bb4c, data_size=512 crc=0x6a[0m
+V bus_lock: dev 5 acquired.
+D (3071) spi_master: device5 locked the bus[0m
+V (3081) spi_master: polling trans[0m
+V (3081) spi_master: polling trans done[0m
+V (3081) spi_master: polling trans[0m
+V (3091) spi_master: polling trans done[0m
+V (3091) spi_master: polling trans[0m
+V (3091) spi_master: polling trans done[0m
+V (3101) spi_master: polling trans[0m
+V (3101) spi_master: polling trans done[0m
+V (3111) bus_lock: dev 5 served from bg.[0m
+V (3111) spi_master: polling trans[0m
+V (3111) spi_master: polling trans done[0m
+D (3121) spi_master: device5 release bus[0m
+V (3121) bus_lock: dev 5 released.[0m
+V (3121) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x0ffffff8[0m
+V (3131) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (3141) sdmmc_cmd: sending cmd slot=1 op=17 arg=257e flags=1c50 data=0x3fc9d380 blklen=512 datalen=512 timeout=10000[0m
+V (3151) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x0000257e flags=0x5, data=0x3fc9d380, data_size=512 crc=0x4e[0m
+V bus_lock: dev 5 acquired.
+D (3161) spi_master: device5 locked the bus[0m
+V (3171) spi_master: polling trans[0m
+V (3171) spi_master: polling trans done[0m
+V (3171) spi_master: polling trans[0m
+V (3181) spi_master: polling trans done[0m
+V (3181) spi_master: polling trans[0m
+V (3191) spi_master: polling trans done[0m
+V (3191) spi_master: polling trans[0m
+V (3191) spi_master: polling trans done[0m
+V (3201) bus_lock: dev 5 served from bg.[0m
+V (3201) spi_master: polling trans[0m
+V (3201) spi_master: polling trans done[0m
+D (3211) spi_master: device5 release bus[0m
+V (3211) bus_lock: dev 5 released.[0m
+V (3221) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x6c707369[0m
+V (3221) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (3231) vfs_fat: vfs_fat_lseek: offset=5568, filesize:=5568[0m
+V (3231) sdmmc_cmd: sending cmd slot=1 op=24 arg=257e flags=1c10 data=0x3fc9d380 blklen=512 datalen=512 timeout=10000[0m
+V (3251) sdspi_host: sdspi_host_start_command: slot=1, CMD24, arg=0x0000257e flags=0x7, data=0x3fc9d380, data_size=512 crc=0x53[0m
+V bus_lock: dev 5 acquired.
+D (3261) spi_master: device5 locked the bus[0m
+V (3261) spi_master: polling trans[0m
+V (3271) spi_master: polling trans done[0m
+V (3271) spi_master: polling trans[0m
+V (3271) spi_master: polling trans done[0m
+V (3281) spi_master: polling trans[0m
+V (3281) spi_master: polling trans done[0m
+V (3291) spi_master: polling trans[0m
+V (3291) spi_master: polling trans done[0m
+V (3291) bus_lock: dev 5 served from bg.[0m
+V (3301) spi_master: polling trans[0m
+V (3301) spi_master: polling trans done[0m
+V (3301) spi_master: polling trans[0m
+V (3311) spi_master: polling trans done[0m
+V (3311) spi_master: polling trans[0m
+V (3321) spi_master: polling trans done[0m
+V (3321) spi_master: polling trans[0m
+V (3321) spi_master: polling trans done[0m
+V (3331) spi_master: polling trans[0m
+V (3331) spi_master: polling trans done[0m
+D (3331) spi_master: device5 release bus[0m
+V (3341) bus_lock: dev 5 released.[0m
+V (3341) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (3351) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (3361) sdmmc_cmd: sending cmd slot=1 op=13 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (3361) sdspi_host: sdspi_host_start_command: slot=1, CMD13, arg=0x00000000 flags=0x10, data=0x0, data_size=0 crc=0x06[0m
+V bus_lock: dev 5 acquired.
+D (3381) spi_master: device5 locked the bus[0m
+V (3381) spi_master: polling trans[0m
+V (3391) spi_master: polling trans done[0m
+V (3391) spi_master: polling trans[0m
+V (3391) spi_master: polling trans done[0m
+V (3401) spi_master: polling trans[0m
+V (3401) spi_master: polling trans done[0m
+V (3401) spi_master: polling trans[0m
+V (3411) spi_master: polling trans done[0m
+D (3411) spi_master: device5 release bus[0m
+V (3421) bus_lock: dev 5 released.[0m
+V (3421) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffff00[0m
+V (3421) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (3431) sdmmc_cmd: sending cmd slot=1 op=17 arg=2572 flags=1c50 data=0x3fc9bb4c blklen=512 datalen=512 timeout=10000[0m
+V (3441) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002572 flags=0x5, data=0x3fc9bb4c, data_size=512 crc=0x22[0m
+V bus_lock: dev 5 acquired.
+D (3461) spi_master: device5 locked the bus[0m
+V (3461) spi_master: polling trans[0m
+V (3471) spi_master: polling trans done[0m
+V (3471) spi_master: polling trans[0m
+V (3471) spi_master: polling trans done[0m
+V (3481) spi_master: polling trans[0m
+V (3481) spi_master: polling trans done[0m
+V (3481) spi_master: polling trans[0m
+V (3491) spi_master: polling trans done[0m
+V (3491) bus_lock: dev 5 served from bg.[0m
+V (3501) spi_master: polling trans[0m
+V (3501) spi_master: polling trans done[0m
+D (3501) spi_master: device5 release bus[0m
+V (3511) bus_lock: dev 5 released.[0m
+V (3511) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x20204453[0m
+V (3521) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (3521) sdmmc_cmd: sending cmd slot=1 op=24 arg=2572 flags=1c10 data=0x3fc9bb4c blklen=512 datalen=512 timeout=10000[0m
+V (3531) sdspi_host: sdspi_host_start_command: slot=1, CMD24, arg=0x00002572 flags=0x7, data=0x3fc9bb4c, data_size=512 crc=0x3f[0m
+V bus_lock: dev 5 acquired.
+D (3551) spi_master: device5 locked the bus[0m
+V (3551) spi_master: polling trans[0m
+V (3561) spi_master: polling trans done[0m
+V (3561) spi_master: polling trans[0m
+V (3561) spi_master: polling trans done[0m
+V (3571) spi_master: polling trans[0m
+V (3571) spi_master: polling trans done[0m
+V (3571) spi_master: polling trans[0m
+V (3581) spi_master: polling trans done[0m
+V (3581) bus_lock: dev 5 served from bg.[0m
+V (3591) spi_master: polling trans[0m
+V (3591) spi_master: polling trans done[0m
+V (3591) spi_master: polling trans[0m
+V (3601) spi_master: polling trans done[0m
+V (3601) spi_master: polling trans[0m
+V (3601) spi_master: polling trans done[0m
+V (3611) spi_master: polling trans[0m
+V (3611) spi_master: polling trans done[0m
+V (3621) spi_master: polling trans[0m
+V (3621) spi_master: polling trans done[0m
+D (3621) spi_master: device5 release bus[0m
+V (3631) bus_lock: dev 5 released.[0m
+V (3631) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (3641) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (3641) sdmmc_cmd: sending cmd slot=1 op=13 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (3651) sdspi_host: sdspi_host_start_command: slot=1, CMD13, arg=0x00000000 flags=0x10, data=0x0, data_size=0 crc=0x06[0m
+V bus_lock: dev 5 acquired.
+D (3671) spi_master: device5 locked the bus[0m
+V (3671) spi_master: polling trans[0m
+V (3671) spi_master: polling trans done[0m
+V (3681) spi_master: polling trans[0m
+V (3681) spi_master: polling trans done[0m
+V (3691) spi_master: polling trans[0m
+V (3691) spi_master: polling trans done[0m
+V (3691) spi_master: polling trans[0m
+V (3701) spi_master: polling trans done[0m
+D (3701) spi_master: device5 release bus[0m
+V (3701) bus_lock: dev 5 released.[0m
+V (3711) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffff00[0m
+V (3711) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+[0;31mE (3721) SDCARD: Wrote to file!!
+[0m
+[0;31mE (3731) SDCARD: Unmounting SD Card...
+[0m
+[0;32mI (3731) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (3741) SDCARD: Success in writing to SD card
+[0m
+[0;31mE (3741) SDCARD: Mounting SD Card...
+[0m
+D (3751) sdspi_host: sdspi_host_init_device: SPI2 cs=4 cd=-1 wp=-1[0m
+V (3761) bus_lock: device registered on bus 1 slot 5.[0m
+D (3761) spi_hal: eff: 400, limit: 80000k(/0), 0 dummy, -1 delay[0m
+D (3771) spi_master: SPI2: New device added to CS5, effective clock: 400kHz[0m
+[0;32mI (3771) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+V (3781) sdmmc_cmd: sending cmd slot=1 op=52 arg=80000c08 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (3791) sdspi_host: sdspi_host_start_command: slot=1, CMD52, arg=0x80000c08 flags=0x80, data=0x0, data_size=0 crc=0x4f[0m
+V bus_lock: dev 5 acquired.
+D (3811) spi_master: device5 locked the bus[0m
+V bus_lock: SPI dev changed from -1 to 5
+V (3811) spi_master: polling trans[0m
+V (3821) spi_master: polling trans done[0m
+V (3821) spi_master: polling trans[0m
+V (3831) spi_master: polling trans done[0m
+V (3831) spi_master: polling trans[0m
+V (3831) spi_master: polling trans done[0m
+V (3841) spi_master: polling trans[0m
+V (3841) spi_master: polling trans done[0m
+D (3841) spi_master: device5 release bus[0m
+V (3851) bus_lock: dev 5 released.[0m
+V (3851) sdspi_transaction: r1 = 0x04 hw_cmd.r[0]=0xffffffff[0m
+[0;32mI (3861) sdspi_transaction: cmd=52, R1 response: command not supported[0m
+D (3861) sdmmc_cmd: cmd=52, sdmmc_req_run returned 0x106[0m
+V (3871) sdmmc_io: sdmmc_io_rw_direct: sdmmc_send_cmd returned 0x106[0m
+V (3881) sdmmc_cmd: sending cmd slot=1 op=0 arg=0 flags=20 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (3891) sdspi_host: sdspi_host_start_command: slot=1, CMD0, arg=0x00000000 flags=0x200, data=0x0, data_size=0 crc=0x4a[0m
+V bus_lock: dev 5 acquired.
+D (3901) spi_master: device5 locked the bus[0m
+V (3901) spi_master: polling trans[0m
+V (3911) spi_master: polling trans done[0m
+V (3911) spi_master: polling trans[0m
+V (3911) spi_master: polling trans done[0m
+V (3921) spi_master: polling trans[0m
+V (3921) spi_master: polling trans done[0m
+V (3931) spi_master: polling trans[0m
+V (3931) spi_master: polling trans done[0m
+V (3931) sdspi_host: start_command_default: ignoring response byte[0m
+V (3941) spi_master: polling trans[0m
+V (3941) spi_master: polling trans done[0m
+D (3951) spi_master: device5 release bus[0m
+V (3951) bus_lock: dev 5 released.[0m
+V (3951) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (3961) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (3991) sdmmc_cmd: sending cmd slot=1 op=0 arg=0 flags=1c20 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (3991) sdspi_host: sdspi_host_start_command: slot=1, CMD0, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x4a[0m
+V bus_lock: dev 5 acquired.
+D (4001) spi_master: device5 locked the bus[0m
+V (4001) spi_master: polling trans[0m
+V (4001) spi_master: polling trans done[0m
+V (4011) spi_master: polling trans[0m
+V (4011) spi_master: polling trans done[0m
+V (4021) spi_master: polling trans[0m
+V (4021) spi_master: polling trans done[0m
+V (4021) spi_master: polling trans[0m
+V (4031) spi_master: polling trans done[0m
+V (4031) spi_master: polling trans[0m
+V (4031) spi_master: polling trans done[0m
+D (4041) spi_master: device5 release bus[0m
+V (4041) bus_lock: dev 5 released.[0m
+V (4051) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (4051) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (4081) sdmmc_cmd: sending cmd slot=1 op=8 arg=1aa flags=1c30 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (4081) sdspi_host: sdspi_host_start_command: slot=1, CMD8, arg=0x000001aa flags=0x100, data=0x0, data_size=0 crc=0x43[0m
+V bus_lock: dev 5 acquired.
+D (4091) spi_master: device5 locked the bus[0m
+V (4091) spi_master: polling trans[0m
+V (4091) spi_master: polling trans done[0m
+V (4101) spi_master: polling trans[0m
+V (4101) spi_master: polling trans done[0m
+V (4111) spi_master: polling trans[0m
+V (4111) spi_master: polling trans done[0m
+V (4111) spi_master: polling trans[0m
+V (4121) spi_master: polling trans done[0m
+D (4121) spi_master: device5 release bus[0m
+V (4121) bus_lock: dev 5 released.[0m
+V (4131) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xaa010000[0m
+V (4131) sdmmc_cmd: cmd response 000001aa 00000000 00000000 00000000 err=0x0 state=0[0m
+D (4141) sdmmc_sd: SDHC/SDXC card[0m
+V (4151) sdmmc_cmd: sending cmd slot=1 op=5 arg=0 flags=1030 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (4151) sdspi_host: sdspi_host_start_command: slot=1, CMD5, arg=0x00000000 flags=0x40, data=0x0, data_size=0 crc=0x2d[0m
+V bus_lock: dev 5 acquired.
+D (4171) spi_master: device5 locked the bus[0m
+V (4171) spi_master: polling trans[0m
+V (4181) spi_master: polling trans done[0m
+V (4181) spi_master: polling trans[0m
+V (4181) spi_master: polling trans done[0m
+V (4191) spi_master: polling trans[0m
+V (4191) spi_master: polling trans done[0m
+V (4191) spi_master: polling trans[0m
+V (4201) spi_master: polling trans done[0m
+D (4201) spi_master: device5 release bus[0m
+V (4211) bus_lock: dev 5 released.[0m
+V (4211) sdspi_transaction: r1 = 0x05 hw_cmd.r[0]=0xffffffff[0m
+[0;32mI (4211) sdspi_transaction: cmd=5, R1 response: command not supported[0m
+D (4221) sdmmc_cmd: cmd=5, sdmmc_req_run returned 0x106[0m
+D (4231) sdmmc_io: sdmmc_init_io: io_send_op_cond (1) returned 0x106; not IO card[0m
+V (4231) sdmmc_cmd: sending cmd slot=1 op=59 arg=1 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (4241) sdspi_host: sdspi_host_start_command: slot=1, CMD59, arg=0x00000001 flags=0x4, data=0x0, data_size=0 crc=0x41[0m
+V bus_lock: dev 5 acquired.
+D (4261) spi_master: device5 locked the bus[0m
+V (4261) spi_master: polling trans[0m
+V (4271) spi_master: polling trans done[0m
+V (4271) spi_master: polling trans[0m
+V (4271) spi_master: polling trans done[0m
+V (4281) spi_master: polling trans[0m
+V (4281) spi_master: polling trans done[0m
+V (4281) spi_master: polling trans[0m
+V (4291) spi_master: polling trans done[0m
+D (4291) spi_master: device5 release bus[0m
+V (4301) bus_lock: dev 5 released.[0m
+D (4301) sdspi_host: data CRC set=1[0m
+V (4301) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (4311) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (4321) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (4331) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (4341) spi_master: device5 locked the bus[0m
+V (4341) spi_master: polling trans[0m
+V (4351) spi_master: polling trans done[0m
+V (4351) spi_master: polling trans[0m
+V (4351) spi_master: polling trans done[0m
+V (4361) spi_master: polling trans[0m
+V (4361) spi_master: polling trans done[0m
+V (4361) spi_master: polling trans[0m
+V (4371) spi_master: polling trans done[0m
+D (4371) spi_master: device5 release bus[0m
+V (4381) bus_lock: dev 5 released.[0m
+V (4381) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (4391) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (4391) sdmmc_cmd: sending cmd slot=1 op=41 arg=40ff8000 flags=1030 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (4401) sdspi_host: sdspi_host_start_command: slot=1, CMD41, arg=0x40ff8000 flags=0x4, data=0x0, data_size=0 crc=0x0b[0m
+V bus_lock: dev 5 acquired.
+D (4421) spi_master: device5 locked the bus[0m
+V (4421) spi_master: polling trans[0m
+V (4421) spi_master: polling trans done[0m
+V (4431) spi_master: polling trans[0m
+V (4431) spi_master: polling trans done[0m
+V (4441) spi_master: polling trans[0m
+V (4441) spi_master: polling trans done[0m
+V (4441) spi_master: polling trans[0m
+V (4451) spi_master: polling trans done[0m
+D (4451) spi_master: device5 release bus[0m
+V (4451) bus_lock: dev 5 released.[0m
+V (4461) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (4461) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (4481) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (4481) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (4491) spi_master: device5 locked the bus[0m
+V (4501) spi_master: polling trans[0m
+V (4501) spi_master: polling trans done[0m
+V (4511) spi_master: polling trans[0m
+V (4511) spi_master: polling trans done[0m
+V (4511) spi_master: polling trans[0m
+V (4521) spi_master: polling trans done[0m
+V (4521) spi_master: polling trans[0m
+V (4521) spi_master: polling trans done[0m
+D (4531) spi_master: device5 release bus[0m
+V (4531) bus_lock: dev 5 released.[0m
+V (4541) sdspi_transaction: r1 = 0x01 hw_cmd.r[0]=0xffffffff[0m
+V (4541) sdmmc_cmd: cmd response 00000001 00000000 00000000 00000000 err=0x0 state=0[0m
+V (4551) sdmmc_cmd: sending cmd slot=1 op=41 arg=40ff8000 flags=1030 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (4561) sdspi_host: sdspi_host_start_command: slot=1, CMD41, arg=0x40ff8000 flags=0x4, data=0x0, data_size=0 crc=0x0b[0m
+V bus_lock: dev 5 acquired.
+D (4571) spi_master: device5 locked the bus[0m
+V (4581) spi_master: polling trans[0m
+V (4581) spi_master: polling trans done[0m
+V (4581) spi_master: polling trans[0m
+V (4591) spi_master: polling trans done[0m
+V (4591) spi_master: polling trans[0m
+V (4601) spi_master: polling trans done[0m
+V (4601) spi_master: polling trans[0m
+V (4601) spi_master: polling trans done[0m
+D (4611) spi_master: device5 release bus[0m
+V (4611) bus_lock: dev 5 released.[0m
+V (4611) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (4621) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (4631) sdmmc_cmd: sending cmd slot=1 op=58 arg=0 flags=1630 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (4641) sdspi_host: sdspi_host_start_command: slot=1, CMD58, arg=0x00000000 flags=0x20, data=0x0, data_size=0 crc=0x7e[0m
+V bus_lock: dev 5 acquired.
+D (4651) spi_master: device5 locked the bus[0m
+V (4651) spi_master: polling trans[0m
+V (4661) spi_master: polling trans done[0m
+V (4661) spi_master: polling trans[0m
+V (4661) spi_master: polling trans done[0m
+V (4671) spi_master: polling trans[0m
+V (4671) spi_master: polling trans done[0m
+V (4681) spi_master: polling trans[0m
+V (4681) spi_master: polling trans done[0m
+D (4681) spi_master: device5 release bus[0m
+V (4691) bus_lock: dev 5 released.[0m
+V (4691) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x0080ffc0[0m
+V (4701) sdmmc_cmd: cmd response c0ff8000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (4701) sdmmc_common: host_ocr=0x40ff8000 card_ocr=0xc0ff8000[0m
+D (4711) sdmmc_common: sdmmc_card_init: host_ocr=40ff8000, card_ocr=c0ff8000[0m
+D (4721) sdmmc_init: sdmmc_card_init: card type is SD[0m
+V (4721) sdmmc_cmd: sending cmd slot=1 op=10 arg=0 flags=50 data=0x3fc99e90 blklen=0 datalen=16 timeout=10000[0m
+V (4731) sdspi_host: sdspi_host_start_command: slot=1, CMD10, arg=0x00000000 flags=0x5, data=0x3fc99e90, data_size=16 crc=0x0d[0m
+V bus_lock: dev 5 acquired.
+D (4751) spi_master: device5 locked the bus[0m
+V (4751) spi_master: polling trans[0m
+V (4751) spi_master: polling trans done[0m
+V (4761) spi_master: polling trans[0m
+V (4761) spi_master: polling trans done[0m
+V (4771) spi_master: polling trans[0m
+V (4771) spi_master: polling trans done[0m
+V (4771) bus_lock: dev 5 served from bg.[0m
+V (4781) spi_master: polling trans[0m
+V (4781) spi_master: polling trans done[0m
+D (4781) spi_master: device5 release bus[0m
+V (4791) bus_lock: dev 5 released.[0m
+V (4791) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x03feff00[0m
+V (4801) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (4811) sdmmc_cmd: sending cmd slot=1 op=9 arg=0 flags=1c50 data=0x3fc99ea0 blklen=0 datalen=16 timeout=10000[0m
+V (4821) sdspi_host: sdspi_host_start_command: slot=1, CMD9, arg=0x00000000 flags=0x5, data=0x3fc99ea0, data_size=16 crc=0x57[0m
+V bus_lock: dev 5 acquired.
+D (4831) spi_master: device5 locked the bus[0m
+V (4831) spi_master: polling trans[0m
+V (4841) spi_master: polling trans done[0m
+V (4841) spi_master: polling trans[0m
+V (4841) spi_master: polling trans done[0m
+V (4851) spi_master: polling trans[0m
+V (4851) spi_master: polling trans done[0m
+V (4861) bus_lock: dev 5 served from bg.[0m
+V (4861) spi_master: polling trans[0m
+V (4861) spi_master: polling trans done[0m
+D (4871) spi_master: device5 release bus[0m
+V (4871) bus_lock: dev 5 released.[0m
+V (4871) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x40feff00[0m
+V (4881) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (4891) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (4901) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (4911) spi_master: device5 locked the bus[0m
+V (4921) spi_master: polling trans[0m
+V (4921) spi_master: polling trans done[0m
+V (4921) spi_master: polling trans[0m
+V (4931) spi_master: polling trans done[0m
+V (4931) spi_master: polling trans[0m
+V (4931) spi_master: polling trans done[0m
+V (4941) spi_master: polling trans[0m
+V (4941) spi_master: polling trans done[0m
+D (4941) spi_master: device5 release bus[0m
+V (4951) bus_lock: dev 5 released.[0m
+V (4951) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (4961) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (4971) sdmmc_cmd: sending cmd slot=1 op=51 arg=0 flags=1c50 data=0x3fca26c0 blklen=8 datalen=8 timeout=10000[0m
+V (4981) sdspi_host: sdspi_host_start_command: slot=1, CMD51, arg=0x00000000 flags=0x5, data=0x3fca26c0, data_size=8 crc=0x63[0m
+V bus_lock: dev 5 acquired.
+D (4991) spi_master: device5 locked the bus[0m
+V (4991) spi_master: polling trans[0m
+V (5001) spi_master: polling trans done[0m
+V (5001) spi_master: polling trans[0m
+V (5001) spi_master: polling trans done[0m
+V (5011) spi_master: polling trans[0m
+V (5011) spi_master: polling trans done[0m
+V (5021) spi_master: polling trans[0m
+V (5021) spi_master: polling trans done[0m
+V (5021) bus_lock: dev 5 served from bg.[0m
+V (5031) spi_master: polling trans[0m
+V (5031) spi_master: polling trans done[0m
+D (5031) spi_master: device5 release bus[0m
+V (5041) bus_lock: dev 5 released.[0m
+V (5041) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x03803502[0m
+V (5051) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (5061) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (5071) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (5081) spi_master: device5 locked the bus[0m
+V (5081) spi_master: polling trans[0m
+V (5091) spi_master: polling trans done[0m
+V (5091) spi_master: polling trans[0m
+V (5091) spi_master: polling trans done[0m
+V (5101) spi_master: polling trans[0m
+V (5101) spi_master: polling trans done[0m
+V (5101) spi_master: polling trans[0m
+V (5111) spi_master: polling trans done[0m
+D (5111) spi_master: device5 release bus[0m
+V (5121) bus_lock: dev 5 released.[0m
+V (5121) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (5131) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (5131) sdmmc_cmd: sending cmd slot=1 op=13 arg=0 flags=1c50 data=0x3fc9b814 blklen=64 datalen=64 timeout=10000[0m
+V (5141) sdspi_host: sdspi_host_start_command: slot=1, CMD13, arg=0x00000000 flags=0x11, data=0x3fc9b814, data_size=64 crc=0x06[0m
+V bus_lock: dev 5 acquired.
+D (5161) spi_master: device5 locked the bus[0m
+V (5161) spi_master: polling trans[0m
+V (5171) spi_master: polling trans done[0m
+V (5171) spi_master: polling trans[0m
+V (5171) spi_master: polling trans done[0m
+V (5181) spi_master: polling trans[0m
+V (5181) spi_master: polling trans done[0m
+V (5181) spi_master: polling trans[0m
+V (5191) spi_master: polling trans done[0m
+V (5191) bus_lock: dev 5 served from bg.[0m
+V (5201) spi_master: polling trans[0m
+V (5201) spi_master: polling trans done[0m
+D (5201) spi_master: device5 release bus[0m
+V (5211) bus_lock: dev 5 released.[0m
+V (5211) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x00000000[0m
+V (5221) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (5221) sdmmc_common: sdmmc_init_host_frequency: using 20000 kHz bus frequency[0m
+D (5231) sdspi_host: Setting card clock to 20000 kHz[0m
+V (5241) bus_lock: device registered on bus 1 slot 5.[0m
+D (5241) spi_hal: eff: 20000, limit: 80000k(/0), 0 dummy, -1 delay[0m
+D (5251) spi_master: SPI2: New device added to CS5, effective clock: 20000kHz[0m
+V (5251) sdmmc_cmd: sending cmd slot=1 op=55 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (5261) sdspi_host: sdspi_host_start_command: slot=1, CMD55, arg=0x00000000 flags=0x4, data=0x0, data_size=0 crc=0x32[0m
+V bus_lock: dev 5 acquired.
+D (5281) spi_master: device5 locked the bus[0m
+V bus_lock: SPI dev changed from -1 to 5
+V (5291) spi_master: polling trans[0m
+V (5291) spi_master: polling trans done[0m
+V (5291) spi_master: polling trans[0m
+V (5301) spi_master: polling trans done[0m
+V (5301) spi_master: polling trans[0m
+V (5301) spi_master: polling trans done[0m
+V (5311) spi_master: polling trans[0m
+V (5311) spi_master: polling trans done[0m
+D (5311) spi_master: device5 release bus[0m
+V (5321) bus_lock: dev 5 released.[0m
+V (5321) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (5331) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (5341) sdmmc_cmd: sending cmd slot=1 op=51 arg=0 flags=1c50 data=0x3fca26c0 blklen=8 datalen=8 timeout=10000[0m
+V (5351) sdspi_host: sdspi_host_start_command: slot=1, CMD51, arg=0x00000000 flags=0x5, data=0x3fca26c0, data_size=8 crc=0x63[0m
+V bus_lock: dev 5 acquired.
+D (5361) spi_master: device5 locked the bus[0m
+V (5361) spi_master: polling trans[0m
+V (5371) spi_master: polling trans done[0m
+V (5371) spi_master: polling trans[0m
+V (5371) spi_master: polling trans done[0m
+V (5381) spi_master: polling trans[0m
+V (5381) spi_master: polling trans done[0m
+V (5391) spi_master: polling trans[0m
+V (5391) spi_master: polling trans done[0m
+V (5391) bus_lock: dev 5 served from bg.[0m
+V (5401) spi_master: polling trans[0m
+V (5401) spi_master: polling trans done[0m
+D (5401) spi_master: device5 release bus[0m
+V (5411) bus_lock: dev 5 released.[0m
+V (5411) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x03803502[0m
+V (5421) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (5431) vfs_fat_sdmmc: using pdrv=0[0m
+V (5431) sdmmc_cmd: sending cmd slot=1 op=13 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (5441) sdspi_host: sdspi_host_start_command: slot=1, CMD13, arg=0x00000000 flags=0x10, data=0x0, data_size=0 crc=0x06[0m
+V bus_lock: dev 5 acquired.
+D (5451) spi_master: device5 locked the bus[0m
+V (5461) spi_master: polling trans[0m
+V (5461) spi_master: polling trans done[0m
+V (5461) spi_master: polling trans[0m
+V (5471) spi_master: polling trans done[0m
+V (5471) spi_master: polling trans[0m
+V (5471) spi_master: polling trans done[0m
+V (5481) spi_master: polling trans[0m
+V (5481) spi_master: polling trans done[0m
+D (5491) spi_master: device5 release bus[0m
+V (5491) bus_lock: dev 5 released.[0m
+V (5491) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffff00[0m
+V (5501) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (5511) sdmmc_cmd: sending cmd slot=1 op=17 arg=0 flags=1c50 data=0x3fc9bb34 blklen=512 datalen=512 timeout=10000[0m
+V (5521) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00000000 flags=0x5, data=0x3fc9bb34, data_size=512 crc=0x2a[0m
+V bus_lock: dev 5 acquired.
+D (5531) spi_master: device5 locked the bus[0m
+V (5541) spi_master: polling trans[0m
+V (5541) spi_master: polling trans done[0m
+V (5541) spi_master: polling trans[0m
+V (5551) spi_master: polling trans done[0m
+V (5551) spi_master: polling trans[0m
+V (5551) spi_master: polling trans done[0m
+V (5561) spi_master: polling trans[0m
+V (5561) spi_master: polling trans done[0m
+V (5571) bus_lock: dev 5 served from bg.[0m
+V (5571) spi_master: polling trans[0m
+V (5571) spi_master: polling trans done[0m
+D (5581) spi_master: device5 release bus[0m
+V (5581) bus_lock: dev 5 released.[0m
+V (5581) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x1000b8fa[0m
+V (5591) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (5601) sdmmc_cmd: sending cmd slot=1 op=17 arg=2000 flags=1c50 data=0x3fc9bb34 blklen=512 datalen=512 timeout=10000[0m
+V (5611) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002000 flags=0x5, data=0x3fc9bb34, data_size=512 crc=0x58[0m
+V bus_lock: dev 5 acquired.
+D (5621) spi_master: device5 locked the bus[0m
+V (5631) spi_master: polling trans[0m
+V (5631) spi_master: polling trans done[0m
+V (5631) spi_master: polling trans[0m
+V (5641) spi_master: polling trans done[0m
+V (5641) spi_master: polling trans[0m
+V (5651) spi_master: polling trans done[0m
+V (5651) spi_master: polling trans[0m
+V (5651) spi_master: polling trans done[0m
+V (5661) bus_lock: dev 5 served from bg.[0m
+V (5661) spi_master: polling trans[0m
+V (5661) spi_master: polling trans done[0m
+D (5671) spi_master: device5 release bus[0m
+V (5671) bus_lock: dev 5 released.[0m
+V (5681) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x6d9058eb[0m
+V (5681) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (5691) sdmmc_cmd: sending cmd slot=1 op=17 arg=2001 flags=1c50 data=0x3fc9bb34 blklen=512 datalen=512 timeout=10000[0m
+V (5701) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002001 flags=0x5, data=0x3fc9bb34, data_size=512 crc=0x51[0m
+V bus_lock: dev 5 acquired.
+D (5711) spi_master: device5 locked the bus[0m
+V (5721) spi_master: polling trans[0m
+V (5721) spi_master: polling trans done[0m
+V (5731) spi_master: polling trans[0m
+V (5731) spi_master: polling trans done[0m
+V (5731) spi_master: polling trans[0m
+V (5741) spi_master: polling trans done[0m
+V (5741) spi_master: polling trans[0m
+V (5741) spi_master: polling trans done[0m
+V (5751) bus_lock: dev 5 served from bg.[0m
+V (5751) spi_master: polling trans[0m
+V (5751) spi_master: polling trans done[0m
+D (5761) spi_master: device5 release bus[0m
+V (5761) bus_lock: dev 5 released.[0m
+V (5771) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x41615252[0m
+V (5771) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+[0;31mE (5781) SDCARD: Writing to file...
+[0m
+V (5781) vfs_fat: vfs_fat_open: path="/datalog.txt", flags=209, mode=1b6[0m
+V (5791) sdmmc_cmd: sending cmd slot=1 op=17 arg=2572 flags=1c50 data=0x3fc9bb34 blklen=512 datalen=512 timeout=10000[0m
+V (5801) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002572 flags=0x5, data=0x3fc9bb34, data_size=512 crc=0x22[0m
+V bus_lock: dev 5 acquired.
+D (5821) spi_master: device5 locked the bus[0m
+V (5821) spi_master: polling trans[0m
+V (5821) spi_master: polling trans done[0m
+V (5831) spi_master: polling trans[0m
+V (5831) spi_master: polling trans done[0m
+V (5831) spi_master: polling trans[0m
+V (5841) spi_master: polling trans done[0m
+V (5841) spi_master: polling trans[0m
+V (5851) spi_master: polling trans done[0m
+V (5851) bus_lock: dev 5 served from bg.[0m
+V (5851) spi_master: polling trans[0m
+V (5861) spi_master: polling trans done[0m
+D (5861) spi_master: device5 release bus[0m
+V (5861) bus_lock: dev 5 released.[0m
+V (5871) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x20204453[0m
+V (5871) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (5881) vfs_fat: vfs_fat_lseek: offset=5591, filesize:=5591[0m
+V (5891) sdmmc_cmd: sending cmd slot=1 op=17 arg=2020 flags=1c50 data=0x3fc9bb34 blklen=512 datalen=512 timeout=10000[0m
+V (5901) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002020 flags=0x5, data=0x3fc9bb34, data_size=512 crc=0x6a[0m
+V bus_lock: dev 5 acquired.
+D (5911) spi_master: device5 locked the bus[0m
+V (5921) spi_master: polling trans[0m
+V (5921) spi_master: polling trans done[0m
+V (5921) spi_master: polling trans[0m
+V (5931) spi_master: polling trans done[0m
+V (5931) spi_master: polling trans[0m
+V (5931) spi_master: polling trans done[0m
+V (5941) spi_master: polling trans[0m
+V (5941) spi_master: polling trans done[0m
+V (5951) bus_lock: dev 5 served from bg.[0m
+V (5951) spi_master: polling trans[0m
+V (5951) spi_master: polling trans done[0m
+D (5961) spi_master: device5 release bus[0m
+V (5961) bus_lock: dev 5 released.[0m
+V (5961) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x0ffffff8[0m
+V (5971) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (5981) sdmmc_cmd: sending cmd slot=1 op=17 arg=257e flags=1c50 data=0x3fc9d368 blklen=512 datalen=512 timeout=10000[0m
+V (5991) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x0000257e flags=0x5, data=0x3fc9d368, data_size=512 crc=0x4e[0m
+V bus_lock: dev 5 acquired.
+D (6001) spi_master: device5 locked the bus[0m
+V (6011) spi_master: polling trans[0m
+V (6011) spi_master: polling trans done[0m
+V (6011) spi_master: polling trans[0m
+V (6021) spi_master: polling trans done[0m
+V (6021) spi_master: polling trans[0m
+V (6031) spi_master: polling trans done[0m
+V (6031) spi_master: polling trans[0m
+V (6031) spi_master: polling trans done[0m
+V (6041) bus_lock: dev 5 served from bg.[0m
+V (6041) spi_master: polling trans[0m
+V (6041) spi_master: polling trans done[0m
+D (6051) spi_master: device5 release bus[0m
+V (6051) bus_lock: dev 5 released.[0m
+V (6061) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x6c707369[0m
+V (6061) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+D (6071) vfs_fat: vfs_fat_lseek: offset=5591, filesize:=5591[0m
+V (6071) sdmmc_cmd: sending cmd slot=1 op=24 arg=257e flags=1c10 data=0x3fc9d368 blklen=512 datalen=512 timeout=10000[0m
+V (6091) sdspi_host: sdspi_host_start_command: slot=1, CMD24, arg=0x0000257e flags=0x7, data=0x3fc9d368, data_size=512 crc=0x53[0m
+V bus_lock: dev 5 acquired.
+D (6101) spi_master: device5 locked the bus[0m
+V (6101) spi_master: polling trans[0m
+V (6111) spi_master: polling trans done[0m
+V (6111) spi_master: polling trans[0m
+V (6111) spi_master: polling trans done[0m
+V (6121) spi_master: polling trans[0m
+V (6121) spi_master: polling trans done[0m
+V (6131) spi_master: polling trans[0m
+V (6131) spi_master: polling trans done[0m
+V (6131) bus_lock: dev 5 served from bg.[0m
+V (6141) spi_master: polling trans[0m
+V (6141) spi_master: polling trans done[0m
+V (6141) spi_master: polling trans[0m
+V (6151) spi_master: polling trans done[0m
+V (6151) spi_master: polling trans[0m
+V (6161) spi_master: polling trans done[0m
+V (6161) spi_master: polling trans[0m
+V (6161) spi_master: polling trans done[0m
+V (6171) spi_master: polling trans[0m
+V (6171) spi_master: polling trans done[0m
+D (6171) spi_master: device5 release bus[0m
+V (6181) bus_lock: dev 5 released.[0m
+V (6181) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (6191) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (6201) sdmmc_cmd: sending cmd slot=1 op=13 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (6201) sdspi_host: sdspi_host_start_command: slot=1, CMD13, arg=0x00000000 flags=0x10, data=0x0, data_size=0 crc=0x06[0m
+V bus_lock: dev 5 acquired.
+D (6221) spi_master: device5 locked the bus[0m
+V (6221) spi_master: polling trans[0m
+V (6231) spi_master: polling trans done[0m
+V (6231) spi_master: polling trans[0m
+V (6231) spi_master: polling trans done[0m
+V (6241) spi_master: polling trans[0m
+V (6241) spi_master: polling trans done[0m
+V (6241) spi_master: polling trans[0m
+V (6251) spi_master: polling trans done[0m
+D (6251) spi_master: device5 release bus[0m
+V (6261) bus_lock: dev 5 released.[0m
+V (6261) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffff00[0m
+V (6261) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (6271) sdmmc_cmd: sending cmd slot=1 op=17 arg=2572 flags=1c50 data=0x3fc9bb34 blklen=512 datalen=512 timeout=10000[0m
+V (6281) sdspi_host: sdspi_host_start_command: slot=1, CMD17, arg=0x00002572 flags=0x5, data=0x3fc9bb34, data_size=512 crc=0x22[0m
+V bus_lock: dev 5 acquired.
+D (6301) spi_master: device5 locked the bus[0m
+V (6301) spi_master: polling trans[0m
+V (6311) spi_master: polling trans done[0m
+V (6311) spi_master: polling trans[0m
+V (6311) spi_master: polling trans done[0m
+V (6321) spi_master: polling trans[0m
+V (6321) spi_master: polling trans done[0m
+V (6321) spi_master: polling trans[0m
+V (6331) spi_master: polling trans done[0m
+V (6331) bus_lock: dev 5 served from bg.[0m
+V (6341) spi_master: polling trans[0m
+V (6341) spi_master: polling trans done[0m
+D (6341) spi_master: device5 release bus[0m
+V (6351) bus_lock: dev 5 released.[0m
+V (6351) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0x20204453[0m
+V (6361) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (6361) sdmmc_cmd: sending cmd slot=1 op=24 arg=2572 flags=1c10 data=0x3fc9bb34 blklen=512 datalen=512 timeout=10000[0m
+V (6371) sdspi_host: sdspi_host_start_command: slot=1, CMD24, arg=0x00002572 flags=0x7, data=0x3fc9bb34, data_size=512 crc=0x3f[0m
+V bus_lock: dev 5 acquired.
+D (6391) spi_master: device5 locked the bus[0m
+V (6391) spi_master: polling trans[0m
+V (6401) spi_master: polling trans done[0m
+V (6401) spi_master: polling trans[0m
+V (6401) spi_master: polling trans done[0m
+V (6411) spi_master: polling trans[0m
+V (6411) spi_master: polling trans done[0m
+V (6411) spi_master: polling trans[0m
+V (6421) spi_master: polling trans done[0m
+V (6421) bus_lock: dev 5 served from bg.[0m
+V (6431) spi_master: polling trans[0m
+V (6431) spi_master: polling trans done[0m
+V (6431) spi_master: polling trans[0m
+V (6441) spi_master: polling trans done[0m
+V (6441) spi_master: polling trans[0m
+V (6441) spi_master: polling trans done[0m
+V (6451) spi_master: polling trans[0m
+V (6451) spi_master: polling trans done[0m
+V (6461) spi_master: polling trans[0m
+V (6461) spi_master: polling trans done[0m
+D (6461) spi_master: device5 release bus[0m
+V (6471) bus_lock: dev 5 released.[0m
+V (6471) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffffff[0m
+V (6481) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+V (6481) sdmmc_cmd: sending cmd slot=1 op=13 arg=0 flags=1c00 data=0x0 blklen=0 datalen=0 timeout=10000[0m
+V (6491) sdspi_host: sdspi_host_start_command: slot=1, CMD13, arg=0x00000000 flags=0x10, data=0x0, data_size=0 crc=0x06[0m
+V bus_lock: dev 5 acquired.
+D (6511) spi_master: device5 locked the bus[0m
+V (6511) spi_master: polling trans[0m
+V (6511) spi_master: polling trans done[0m
+V (6521) spi_master: polling trans[0m
+V (6521) spi_master: polling trans done[0m
+V (6531) spi_master: polling trans[0m
+V (6531) spi_master: polling trans done[0m
+V (6531) spi_master: polling trans[0m
+V (6541) spi_master: polling trans done[0m
+D (6541) spi_master: device5 release bus[0m
+V (6541) bus_lock: dev 5 released.[0m
+V (6551) sdspi_transaction: r1 = 0x00 hw_cmd.r[0]=0xffffff00[0m
+V (6551) sdmmc_cmd: cmd response 00000000 00000000 00000000 00000000 err=0x0 state=0[0m
+[0;31mE (6561) SDCARD: Wrote to file!!
+[0m
+[0;31mE (6571) SDCARD: Unmounting SD Card...
+[0m
+[0;32mI (6571) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (6581) SDCARD: Success in writing to SD card
+[0m
+[0;31mE (6581) LCD: Initializing LCD...[0m
+V (6591) bus_lock: device registered on bus 1 slot 0.[0m
+D (6591) spi_hal: eff: 10000, limit: 80000k(/0), 0 dummy, -1 delay[0m
+D (6601) spi_master: SPI2: New device added to CS0, effective clock: 10000kHz[0m
+[0;32mI (6611) gpio: GPIO[10]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+D (6621) lcd_panel.io.spi: new spi lcd panel io @0x3fc9b8d4[0m
+[0;31mE (6621) LCD: ...Initialized LCD!!!
+[0m
+[0;31mE (6631) LCD: Initializing LCD IO Panel...[0m
+[0;32mI (6631) gpio: GPIO[21]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+D (6641) ili9341: new ili9341 panel @0x3fc9b588[0m
+[0;31mE (6651) LCD: ...Initialized LCD IO Panel!!!
+[0m
+[0;31mE (6651) LCD: Updating Image on Display...[0m
+[0;32mI (6661) LCD: Turn off LCD backlight[0m
+[0;32mI (6661) gpio: GPIO[48]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+V bus_lock: dev 0 acquired.
+D (6691) spi_master: device0 locked the bus[0m
+V bus_lock: SPI dev changed from -1 to 0
+V (6691) spi_master: polling trans[0m
+V (6691) spi_master: polling trans done[0m
+D (6691) spi_master: device0 release bus[0m
+V (6701) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (6801) spi_master: device0 locked the bus[0m
+V (6801) spi_master: polling trans[0m
+V (6801) spi_master: polling trans done[0m
+V (6801) spi_master: polling trans[0m
+V (6801) spi_master: polling trans done[0m
+D (6811) spi_master: device0 release bus[0m
+V (6811) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (6821) spi_master: device0 locked the bus[0m
+V (6821) spi_master: polling trans[0m
+V (6821) spi_master: polling trans done[0m
+V (6831) spi_master: polling trans[0m
+V (6831) spi_master: polling trans done[0m
+D (6831) spi_master: device0 release bus[0m
+V (6841) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (6841) spi_master: device0 locked the bus[0m
+V (6851) spi_master: polling trans[0m
+V (6851) spi_master: polling trans done[0m
+D (6861) spi_master: device0 release bus[0m
+V (6861) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (6871) spi_master: device0 locked the bus[0m
+V (6871) spi_master: polling trans[0m
+V (6871) spi_master: polling trans done[0m
+D (6881) spi_master: Allocate TX buffer for DMA[0m
+V (6881) spi_master: polling trans[0m
+V (6891) spi_master: polling trans done[0m
+D (6891) spi_master: device0 release bus[0m
+V (6891) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (6901) spi_master: device0 locked the bus[0m
+V (6901) spi_master: polling trans[0m
+V (6911) spi_master: polling trans done[0m
+D (6911) spi_master: Allocate TX buffer for DMA[0m
+V (6921) spi_master: polling trans[0m
+V (6921) spi_master: polling trans done[0m
+D (6921) spi_master: device0 release bus[0m
+V (6931) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (6931) spi_master: device0 locked the bus[0m
+V (6941) spi_master: polling trans[0m
+V (6941) spi_master: polling trans done[0m
+D (6941) spi_master: Allocate TX buffer for DMA[0m
+V (6951) spi_master: polling trans[0m
+V (6951) spi_master: polling trans done[0m
+D (6961) spi_master: device0 release bus[0m
+V (6961) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (6971) spi_master: device0 locked the bus[0m
+V (6971) spi_master: polling trans[0m
+V (6971) spi_master: polling trans done[0m
+D (6981) spi_master: Allocate TX buffer for DMA[0m
+V (6981) spi_master: polling trans[0m
+V (6991) spi_master: polling trans done[0m
+D (6991) spi_master: device0 release bus[0m
+V (6991) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7001) spi_master: device0 locked the bus[0m
+V (7001) spi_master: polling trans[0m
+V (7011) spi_master: polling trans done[0m
+D (7011) spi_master: Allocate TX buffer for DMA[0m
+V (7021) spi_master: polling trans[0m
+V (7021) spi_master: polling trans done[0m
+D (7021) spi_master: device0 release bus[0m
+V (7031) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7031) spi_master: device0 locked the bus[0m
+V (7041) spi_master: polling trans[0m
+V (7041) spi_master: polling trans done[0m
+D (7051) spi_master: Allocate TX buffer for DMA[0m
+V (7051) spi_master: polling trans[0m
+V (7051) spi_master: polling trans done[0m
+D (7061) spi_master: device0 release bus[0m
+V (7061) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7071) spi_master: device0 locked the bus[0m
+V (7071) spi_master: polling trans[0m
+V (7081) spi_master: polling trans done[0m
+D (7081) spi_master: Allocate TX buffer for DMA[0m
+V (7081) spi_master: polling trans[0m
+V (7091) spi_master: polling trans done[0m
+D (7091) spi_master: device0 release bus[0m
+V (7101) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7101) spi_master: device0 locked the bus[0m
+V (7111) spi_master: polling trans[0m
+V (7111) spi_master: polling trans done[0m
+D (7111) spi_master: Allocate TX buffer for DMA[0m
+V (7121) spi_master: polling trans[0m
+V (7121) spi_master: polling trans done[0m
+D (7121) spi_master: device0 release bus[0m
+V (7131) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7131) spi_master: device0 locked the bus[0m
+V (7141) spi_master: polling trans[0m
+V (7141) spi_master: polling trans done[0m
+D (7151) spi_master: Allocate TX buffer for DMA[0m
+V (7151) spi_master: polling trans[0m
+V (7151) spi_master: polling trans done[0m
+D (7161) spi_master: device0 release bus[0m
+V (7161) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7171) spi_master: device0 locked the bus[0m
+V (7171) spi_master: polling trans[0m
+V (7181) spi_master: polling trans done[0m
+D (7181) spi_master: Allocate TX buffer for DMA[0m
+V (7181) spi_master: polling trans[0m
+V (7191) spi_master: polling trans done[0m
+D (7191) spi_master: device0 release bus[0m
+V (7201) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7201) spi_master: device0 locked the bus[0m
+V (7211) spi_master: polling trans[0m
+V (7211) spi_master: polling trans done[0m
+D (7211) spi_master: Allocate TX buffer for DMA[0m
+V (7221) spi_master: polling trans[0m
+V (7221) spi_master: polling trans done[0m
+D (7231) spi_master: device0 release bus[0m
+V (7231) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7241) spi_master: device0 locked the bus[0m
+V (7241) spi_master: polling trans[0m
+V (7241) spi_master: polling trans done[0m
+D (7251) spi_master: Allocate TX buffer for DMA[0m
+V (7251) spi_master: polling trans[0m
+V (7261) spi_master: polling trans done[0m
+D (7261) spi_master: device0 release bus[0m
+V (7261) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7271) spi_master: device0 locked the bus[0m
+V (7271) spi_master: polling trans[0m
+V (7281) spi_master: polling trans done[0m
+D (7281) spi_master: Allocate TX buffer for DMA[0m
+V (7291) spi_master: polling trans[0m
+V (7291) spi_master: polling trans done[0m
+D (7291) spi_master: device0 release bus[0m
+V (7301) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7301) spi_master: device0 locked the bus[0m
+V (7311) spi_master: polling trans[0m
+V (7311) spi_master: polling trans done[0m
+D (7311) spi_master: Allocate TX buffer for DMA[0m
+V (7321) spi_master: polling trans[0m
+V (7321) spi_master: polling trans done[0m
+D (7331) spi_master: device0 release bus[0m
+V (7331) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7341) spi_master: device0 locked the bus[0m
+V (7341) spi_master: polling trans[0m
+V (7341) spi_master: polling trans done[0m
+D (7351) spi_master: Allocate TX buffer for DMA[0m
+V (7351) spi_master: polling trans[0m
+V (7361) spi_master: polling trans done[0m
+D (7361) spi_master: device0 release bus[0m
+V (7361) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7371) spi_master: device0 locked the bus[0m
+V (7371) spi_master: polling trans[0m
+V (7381) spi_master: polling trans done[0m
+D (7381) spi_master: Allocate TX buffer for DMA[0m
+V (7391) spi_master: polling trans[0m
+V (7391) spi_master: polling trans done[0m
+D (7391) spi_master: device0 release bus[0m
+V (7401) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7401) spi_master: device0 locked the bus[0m
+V (7411) spi_master: polling trans[0m
+V (7411) spi_master: polling trans done[0m
+D (7421) spi_master: Allocate TX buffer for DMA[0m
+V (7421) spi_master: polling trans[0m
+V (7421) spi_master: polling trans done[0m
+D (7431) spi_master: device0 release bus[0m
+V (7431) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7441) spi_master: device0 locked the bus[0m
+V (7441) spi_master: polling trans[0m
+V (7441) spi_master: polling trans done[0m
+D (7451) spi_master: Allocate TX buffer for DMA[0m
+V (7451) spi_master: polling trans[0m
+V (7461) spi_master: polling trans done[0m
+D (7461) spi_master: device0 release bus[0m
+V (7461) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7471) spi_master: device0 locked the bus[0m
+V (7471) spi_master: polling trans[0m
+V (7481) spi_master: polling trans done[0m
+D (7481) spi_master: Allocate TX buffer for DMA[0m
+V (7491) spi_master: polling trans[0m
+V (7491) spi_master: polling trans done[0m
+D (7491) spi_master: device0 release bus[0m
+V (7501) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7501) spi_master: device0 locked the bus[0m
+V (7511) spi_master: polling trans[0m
+V (7511) spi_master: polling trans done[0m
+D (7521) spi_master: Allocate TX buffer for DMA[0m
+V (7521) spi_master: polling trans[0m
+V (7521) spi_master: polling trans done[0m
+D (7531) spi_master: device0 release bus[0m
+V (7531) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7541) spi_master: device0 locked the bus[0m
+V (7541) spi_master: polling trans[0m
+V (7551) spi_master: polling trans done[0m
+D (7551) spi_master: Allocate TX buffer for DMA[0m
+V (7551) spi_master: polling trans[0m
+V (7561) spi_master: polling trans done[0m
+D (7561) spi_master: device0 release bus[0m
+V (7571) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7571) spi_master: device0 locked the bus[0m
+V (7581) spi_master: polling trans[0m
+V (7581) spi_master: polling trans done[0m
+D (7581) spi_master: device0 release bus[0m
+V (7591) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7591) spi_master: device0 locked the bus[0m
+V (7601) spi_master: polling trans[0m
+V (7601) spi_master: polling trans done[0m
+D (7601) spi_master: Allocate TX buffer for DMA[0m
+V (7611) spi_master: polling trans[0m
+V (7611) spi_master: polling trans done[0m
+D (7621) spi_master: device0 release bus[0m
+V (7621) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7631) spi_master: device0 locked the bus[0m
+V (7631) spi_master: polling trans[0m
+V (7631) spi_master: polling trans done[0m
+D (7641) spi_master: Allocate TX buffer for DMA[0m
+V (7641) spi_master: polling trans[0m
+V (7651) spi_master: polling trans done[0m
+D (7651) spi_master: device0 release bus[0m
+V (7651) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7661) spi_master: device0 locked the bus[0m
+V (7661) spi_master: polling trans[0m
+V (7671) spi_master: polling trans done[0m
+D (7671) spi_master: device0 release bus[0m
+V (7681) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7681) spi_master: device0 locked the bus[0m
+V (7691) spi_master: polling trans[0m
+V (7691) spi_master: polling trans done[0m
+D (7691) spi_master: device0 release bus[0m
+V (7701) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7701) spi_master: device0 locked the bus[0m
+V (7711) spi_master: polling trans[0m
+V (7711) spi_master: polling trans done[0m
+D (7721) spi_master: device0 release bus[0m
+V (7721) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7721) spi_master: device0 locked the bus[0m
+V (7731) spi_master: polling trans[0m
+V (7731) spi_master: polling trans done[0m
+D (7741) spi_master: device0 release bus[0m
+V (7741) bus_lock: dev 0 released.[0m
+[0;32mI (7741) LCD: Turn on LCD backlight[0m
+V bus_lock: dev 0 acquired.
+D (7751) spi_master: device0 locked the bus[0m
+V (7761) spi_master: polling trans[0m
+V (7761) spi_master: polling trans done[0m
+V (7761) spi_master: polling trans[0m
+V (7771) spi_master: polling trans done[0m
+D (7771) spi_master: device0 release bus[0m
+V (7771) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+D (7781) spi_master: device0 locked the bus[0m
+V (7781) spi_master: polling trans[0m
+V (7791) spi_master: polling trans done[0m
+V (7791) spi_master: polling trans[0m
+V (7791) spi_master: polling trans done[0m
+D (7801) spi_master: device0 release bus[0m
+V (7801) bus_lock: dev 0 released.[0m
+V bus_lock: dev 0 acquired.
+V (7811) spi_master: polling trans[0m
+V (7811) spi_master: polling trans done[0m
+V (7821) bus_lock: dev 0 released.[0m
+[0;31mE (7821) spi_master: check_trans_valid(697): txdata transfer > host maximum[0m
+[0;31mE (7831) lcd_panel.io.spi: panel_io_spi_tx_color(372): spi transmit (queue) color failed[0m
+[0;31mE (7841) LCD: ...Updated Image on Display!!!
+[0m
+[0;32mI (7841) LCD: Finished Displaying on LCD
+[0m

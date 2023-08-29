@@ -1,0 +1,95 @@
+Display!!!
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x1658
+load:0x403c9700,len:0xbe0
+load:0x403cc700,len:0x2d9c
+entry 0x403c9900
+[0;32mI (25) boot: ESP-IDF 5.0.2 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time 09:55:12[0m
+[0;32mI (25) boot: chip revision: v0.1[0m
+[0;32mI (27) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (31) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (36) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (41) boot: Enabling RNG early entropy source...[0m
+[0;32mI (46) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (80) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0dc74h ( 56436) map[0m
+[0;32mI (102) esp_image: segment 1: paddr=0001dc9c vaddr=3fc92f00 size=0237ch (  9084) load[0m
+[0;32mI (105) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=2a214h (172564) map[0m
+[0;32mI (140) esp_image: segment 3: paddr=0004a23c vaddr=3fc9527c size=0015ch (   348) load[0m
+[0;32mI (140) esp_image: segment 4: paddr=0004a3a0 vaddr=40374000 size=0eedch ( 61148) load[0m
+[0;32mI (165) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (165) boot: Disabling RNG early entropy source...[0m
+[0;32mI (177) cpu_start: Pro cpu up.[0m
+[0;32mI (177) cpu_start: Starting app cpu, entry point is 0x403765c8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (191) cpu_start: Pro cpu start user code[0m
+[0;32mI (191) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (192) cpu_start: Application information:[0m
+[0;32mI (194) cpu_start: Project name:     LCD[0m
+[0;32mI (199) cpu_start: App version:      1[0m
+[0;32mI (203) cpu_start: Compile time:     Aug 16 2023 09:54:11[0m
+[0;32mI (210) cpu_start: ELF file SHA256:  332ac5692297b4d8...[0m
+[0;32mI (216) cpu_start: ESP-IDF:          5.0.2[0m
+[0;32mI (220) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (225) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (230) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (235) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (242) heap_init: At 3FC95E80 len 00053890 (334 KiB): DRAM[0m
+[0;32mI (248) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (255) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (261) heap_init: At 600FE010 len 00001FF0 (7 KiB): RTCRAM[0m
+[0;32mI (268) spi_flash: detected chip: gd[0m
+[0;32mI (272) spi_flash: flash io: dio[0m
+[0;32mI (276) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[0;31mE (296) app_main(): Initializing bus...
+[0m
+[0;32mI (296) app_main(): SPI Bus initialized!!
+[0m
+[0;31mE (296) SDCARD: Mounting SD Card...
+[0m
+[0;32mI (306) gpio: GPIO[10]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (356) sdspi_transaction: cmd=5, R1 response: command not supported[0m
+[0;31mE (366) sdmmc_common: sdmmc_init_ocr: send_op_cond (1) returned 0x107[0m
+[0;31mE (366) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;32mI (366) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (376) SDCARD: Failed to mount filesystem.
+[0m
+[0;31mE (376) SDCARD: The Error Code Returned Was ESP_ERR_TIMEOUT
+[0m
+[0;31mE (386) SDCARD: Mounting SD Card...
+[0m
+[0;32mI (386) gpio: GPIO[10]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (396) sdspi_transaction: cmd=52, R1 response: command not supported[0m
+[0;31mE (446) sdmmc_sd: sdmmc_init_spi_crc: sdmmc_send_cmd_crc_on_off returned 0x107[0m
+[0;31mE (446) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;32mI (446) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (456) SDCARD: Failed to mount filesystem.
+[0m
+[0;31mE (456) SDCARD: The Error Code Returned Was ESP_ERR_TIMEOUT
+[0m
+[0;31mE (466) LCD: Initializing LCD...[0m
+[0;32mI (466) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (476) LCD: ...Initialized LCD!!!
+[0m
+[0;31mE (486) LCD: Initializing LCD IO Panel...[0m
+[0;32mI (486) gpio: GPIO[37]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (496) LCD: ...Initialized LCD IO Panel!!!
+[0m
+[0;31mE (506) LCD: Installing LCD controller driver...[0m
+[0;31mE (506) LCD: ...Initialized LCD controller driver!!!
+[0m
+[0;31mE (516) LCD: Updating Image on Display...[0m
+[0;31mE (516) LCD: ...Updated Image on Display!!!
+[0m
+[0;32mI (526) LCD: Finished Displaying on LCD
+[0m
