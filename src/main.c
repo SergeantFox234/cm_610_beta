@@ -105,9 +105,11 @@ void app_main(void) {
         //if (retVal == 0) {
         //    lv_label_set_text_fmt(label, "%lldmS", ((int64_t)tv.tv_sec * 1000000L + (int64_t)tv.tv_usec) / 1000);
         //}
-        set_co2_value(400 + i);
-        set_o2_value(21 - i%2);
-        set_battery_value(100 - i);
+        if (lvgl_initialized) {
+            set_co2_value(400 + i);
+            set_o2_value(21 - i%2);
+            set_battery_value(100 - i);
+        }
 
         //Every minute...
         if (i % 6 == 0) {
